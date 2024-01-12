@@ -29,5 +29,7 @@
         while((docLine = sr.ReadLine()) != null) {
             Console.WriteLine(docLine);
         }
+
+        sr.Close();
     }
 }
